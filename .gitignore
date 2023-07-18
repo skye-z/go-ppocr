@@ -3,6 +3,8 @@
 *.dll
 *.so
 *.dylib
+
+/api/lib/*
 # model
 /model/*
 !/model/README.md
