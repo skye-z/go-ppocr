@@ -5,7 +5,7 @@ BetaX Micro OCR
 Copyright © 2023 SkyeZhang <skai-zhang@hotmail.com>
 */
 
-package common
+package util
 
 import (
 	"fmt"
