@@ -4,10 +4,10 @@
 *.so
 *.dylib
 
-/api/lib/*
+/paddle/lib/*
 # model
-/model/*
-!/model/README.md
+/inference/*
+!/inference/README.md
 # product
 p2w
 config.ini

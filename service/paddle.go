@@ -8,6 +8,8 @@ import (
 
 func Test() {
 	img := util.ReadImage("test.jpg")
+	// img := util.ReadImage1("test.jpg")
+	// img := util.ReadImage2("test.jpg")
 
 	config := paddle.NewConfig()
 	config.SetModel(util.GetString("model.det.path")+"/inference.pdmodel", util.GetString("model.det.path")+"/inference.pdiparams")
